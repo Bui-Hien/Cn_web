@@ -2,8 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Demo_MVC_Simple/btth02v2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/thuc_hanh_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/configs" isTestSource="false" packagePrefix="connection" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
