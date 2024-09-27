@@ -1,4 +1,5 @@
 <?php
+include_once "./views/layout/header.php";
 if (empty($authors) || empty($categories)) {
     $authors = array(new \models\Author());
     $categories = array(new \models\Category());

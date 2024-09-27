@@ -1,4 +1,5 @@
 <?php
+include_once "./views/layout/header.php";
 
 use models\Article;
 use models\Author;

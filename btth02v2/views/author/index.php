@@ -1,6 +1,5 @@
 <?php
-
-
+include_once "./views/layout/header.php";
 if (empty($authors)) {
     $authors = array(new \models\Author());
 }

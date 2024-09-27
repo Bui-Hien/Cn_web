@@ -1,4 +1,6 @@
 <?php
+include_once "./views/layout/header.php";
+
 if (empty($total_users)) {
     $total_users = 0;
 }

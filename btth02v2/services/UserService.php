@@ -37,6 +37,8 @@ class UserService
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
             if ($row && $password == $row['password']) {
+                session_start();
+                $_SESSION['logged_in'] = true;
                 return true;
             } else {
                 return null;
