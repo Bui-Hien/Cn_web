@@ -1,3 +1,6 @@
+<?php
+include_once "./views/layout/header.php";
+?>
 <div class="row mt-5">
     <div class="col-sm">
         <h3 class="text-center text-uppercase fw-bold">Thêm mới thể loại</h3>

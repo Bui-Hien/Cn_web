@@ -1,11 +1,11 @@
 <?php
+include_once "./views/layout/header.php";
 
 use models\Article;
 
 if (empty($articles))
     $articles = array(new Article);
 ?>
-<main class="container mt-5 mb-5" style="min-height: 100vh">
 
     <!-- <h3 class="text-center text-uppercase mb-3 text-primary">CẢM NHẬN VỀ BÀI HÁT</h3> -->
     <div class="row">

@@ -1,4 +1,11 @@
 <?php
+session_start(); // Start the session
+
+if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    // Redirect to the login page if not logged in
+    header('Location: /btth02v2/index.php?controller=Home&action=showLogin');
+    exit();
+}
 $fileName = isset($_GET['controller']) ? $_GET['controller'] : '';
 ?>
 <!DOCTYPE html>
@@ -59,4 +66,4 @@ $fileName = isset($_GET['controller']) ? $_GET['controller'] : '';
     </nav>
 
 </header>
-<main style="min-height: 100vh">
+<main class="container mt-5 mb-5" style="min-height: 100vh">

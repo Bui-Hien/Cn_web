@@ -12,9 +12,6 @@ require_once "./services/AuthorService.php";
 
 // B1: Bắt giá trị controller và action
 $controller = isset($_GET['controller']) ? $_GET['controller'] : 'Home';
-if ($controller != 'Home') {
-    include_once "./views/layout/header.php";
-}
 $action = isset($_GET['action']) ? $_GET['action'] : 'index';
 
 // B2: Chuẩn hóa tên trước khi gọi
@@ -34,5 +31,3 @@ $myObj->$action(); //action=index > index()
 ?>
 
 <!--http://localhost/btth02v2/index.php?controller=A&action=B -->
-<!--http://localhost/btth02v2/index.php -->
-<!--http://localhost/btth02v2/index.php?controller=home&action=index -->

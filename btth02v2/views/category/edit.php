@@ -1,5 +1,5 @@
 <?php
-
+include_once "./views/layout/header.php";
 use models\Category;
 
 if (empty($category)) {
